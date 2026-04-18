@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
     transition: 0.3s;
 }
 
-/* BACKGROUND GLOW */
+
 body::before {
     content: '';
     position: absolute;
@@ -30,13 +30,13 @@ body::before {
     z-index: -1;
 }
 
-/* LINKS */
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* ================= NAVBAR ================= */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -74,7 +74,7 @@ a {
     color: #7cf03d;
 }
 
-/* ================= HOME ================= */
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -98,7 +98,7 @@ a {
     color: #ccc;
 }
 
-/* BUTTON */
+
 .btn {
     display: inline-block;
     padding: 10px 25px;
@@ -115,7 +115,7 @@ a {
     border: 2px solid #7cf03d;
 }
 
-/* SOCIAL */
+
 .btn-sci {
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@ a {
     color: #1f242d;
 }
 
-/* IMAGE */
+
 .home-img .img-box {
     width: 300px;
     height: 300px;
@@ -156,7 +156,7 @@ a {
     object-fit: cover;
 }
 
-/* FLOAT ANIMATION */
+
 .img-box {
     animation: floatImg 4s ease-in-out infinite;
 }
@@ -166,7 +166,7 @@ a {
     50% { transform: translateY(-12px); }
 }
 
-/* ================= ABOUT ================= */
+
 .about {
     padding: 100px 9%;
 }
@@ -196,7 +196,7 @@ a {
     color: #ccc;
 }
 
-/* ================= PROJECTS ================= */
+
 .projects {
     padding: 100px 9%;
     text-align: center;
@@ -242,7 +242,7 @@ a {
     color: #ccc;
 }
 
-/* ================= SERVICES ================= */
+
 .services {
     padding: 100px 9%;
     text-align: center;
@@ -277,7 +277,7 @@ a {
     color: #7cf03d;
 }
 
-/* ================= CONTACT ================= */
+
 .contact {
     padding: 100px 9%;
     text-align: center;
@@ -309,7 +309,7 @@ a {
     resize: none;
 }
 
-/* ================= SCROLL ANIMATION ================= */
+
 section {
     opacity: 0;
     transform: translateY(40px);
@@ -321,7 +321,7 @@ section.show {
     transform: translateY(0);
 }
 
-/* ================= NIGHT MODE ================= */
+
 #theme-toggle {
     position: fixed;
     bottom: 20px;
@@ -355,7 +355,7 @@ body.light-mode .service-box {
     color: #222;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 768px) {
 
     .home {
